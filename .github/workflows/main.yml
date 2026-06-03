@@ -30,6 +30,7 @@ jobs:
 
       - name: Run training script
         run: |
+          cd hello-world-mlops-main
           python train.py
 
       - name: Upload model artifact
