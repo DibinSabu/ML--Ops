@@ -39,7 +39,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: trained-model
-          path: |
-            hello-world-mlops-main/*.pkl
-            hello-world-mlops-main/*.joblib
-            hello-world-mlops-main/models/**
+          path: hello-world-mlops-main/artifacts/
